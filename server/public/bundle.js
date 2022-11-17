@@ -6087,7 +6087,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   January: {
-    image: 'South-Africa.jpg',
+    image: 'January.png',
     countries: [{
       code: 'AO',
       name: 'Angola'
@@ -6109,7 +6109,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   February: {
-    image: 'Antarctica.jpg',
+    image: 'February.png',
     countries: [{
       code: 'AQ',
       name: 'Antarctica'
@@ -6128,7 +6128,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   March: {
-    image: 'Mekong-River.jpg',
+    image: 'March.png',
     countries: [{
       code: 'AE',
       name: 'United Arab Emirates'
@@ -6150,7 +6150,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   April: {
-    image: 'Austria.jpg',
+    image: 'April.png',
     countries: [{
       code: 'AD',
       name: 'Andorra'
@@ -6169,7 +6169,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   May: {
-    image: 'Canadian-Rockies.jpg',
+    image: 'May.png',
     countries: [{
       code: 'AG',
       name: 'Antigua and Barbuda'
@@ -6182,7 +6182,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   June: {
-    image: 'Venezuela.jpg',
+    image: 'June.png',
     countries: [{
       code: 'AR',
       name: 'Argentina'
@@ -6201,7 +6201,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   July: {
-    image: 'Tonga.jpg',
+    image: 'July.png',
     countries: [{
       code: 'AS',
       name: 'American Samoa'
@@ -6229,7 +6229,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   August: {
-    image: 'Venezuela.jpg',
+    image: 'August.png',
     countries: [{
       code: 'AR',
       name: 'Argentina'
@@ -6248,7 +6248,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   September: {
-    image: 'Venezuela.jpg',
+    image: 'September.png',
     countries: [{
       code: 'AR',
       name: 'Argentina'
@@ -6267,7 +6267,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   October: {
-    image: 'Venezuela.jpg',
+    image: 'October.png',
     countries: [{
       code: 'AR',
       name: 'Argentina'
@@ -6286,7 +6286,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   November: {
-    image: 'Venezuela.jpg',
+    image: 'November.png',
     countries: [{
       code: 'AR',
       name: 'Argentina'
@@ -6305,7 +6305,7 @@ __webpack_require__.r(__webpack_exports__);
     }]
   },
   December: {
-    image: 'Venezuela.jpg',
+    image: 'December.png',
     countries: [{
       code: 'AR',
       name: 'Argentina'
