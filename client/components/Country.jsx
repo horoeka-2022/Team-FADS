@@ -1,48 +1,26 @@
 import React from 'react'
-import { useParams, Link } from 'react-router-dom'
-import data from '../../data/countries'
+
+import { useParams } from 'react-router-dom'
+
+import countries from '../../data/countries'
+//import Neighbour from './Neighbour'
 
 function Country() {
-  const { code } = useParams()
-  const countryData = data.find((country) => country.code === code)
+  const { name } = useParams()
+  // console.log(name)
+  const countryData = countries.find((element) => element.name === name)
+  //console.log(countryData)
 
-  const neighbours = countryData.neighbours
-    ? countryData.neighbours
-        .split(',')
-        .map((neighbour) => data.find((country) => country.code === neighbour))
-    : []
-
-  console.log(neighbours)
   return (
     <>
       <div>
-        <h2>
-          {countryData.name}
-          {countryData.flag}
-        </h2>
+        <h2>{countryData.name}</h2>
         <ul>
-          <li>Capital: {countryData.capital}</li>
-          <li>Area: {countryData.areaSqKms} km2</li>
-          <li>Population: {countryData.population}</li>
-          <li>
-            Currency: {countryData.currencyCode} - {countryData.currencyName}
-          </li>
-          <h3>
-            <strong>Neighbouring Countries:</strong>
-          </h3>
-          {neighbours.length != 0 ? (
-            neighbours.map((neighbour) => {
-              return (
-                <li key={neighbour.code}>
-                  <Link to={`/month/${neighbour.name}/${neighbour.code}`}>
-                    {neighbour.name}
-                  </Link>
-                </li>
-              )
-            })
-          ) : (
-            <li>None</li>
-          )}
+          <p>{'Area: ' + countryData.areaSqKms + ' km sq'}</p>
+          <p>{'Capital: ' + countryData.capital}</p>
+          <p>{'Population: ' + countryData.population}</p>
+          {/* <Neighbour cList={countryData.neighbours} /> */}
+          {/* <p> {'Neighbours: ' + countryData.neighbours}</p> */}
         </ul>
       </div>
     </>

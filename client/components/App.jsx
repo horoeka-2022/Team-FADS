@@ -10,11 +10,11 @@ function App() {
   return (
     <>
       <div className="title">
-        <img
+        {/* <img
           src="/images/color_earth.gif"
           alt="A coloured globe of the earth spinning around on its axis"
-        />
-        <h1>Navigating the worldwide routes</h1>
+        /> */}
+        <h1>The best place to make new connections are festivals.</h1>
       </div>
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className="main">
