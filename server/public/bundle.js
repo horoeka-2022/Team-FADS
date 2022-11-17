@@ -3406,17 +3406,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
 /* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Nav */ "./client/components/Nav.jsx");
 /* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home */ "./client/components/Home.jsx");
-/* harmony import */ var _Continent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Continent */ "./client/components/Continent.jsx");
+/* harmony import */ var _Month__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Month */ "./client/components/Month.jsx");
 /* harmony import */ var _Country__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Country */ "./client/components/Country.jsx");
 
 
 
 
 
-
-
-// import continents from '../../data/continents'
-// import countries from '../../data/countries'
 
 function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -3430,50 +3426,14 @@ function App() {
     path: "/",
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, {
-    path: "/continents/:name",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Continent__WEBPACK_IMPORTED_MODULE_3__["default"], null)
+    path: "/months/:name",
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("month", null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, {
-    path: "/continent/:name/:code",
+    path: "/month/:name/:code",
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Country__WEBPACK_IMPORTED_MODULE_4__["default"], null)
   }))));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
-
-/***/ }),
-
-/***/ "./client/components/Continent.jsx":
-/*!*****************************************!*\
-  !*** ./client/components/Continent.jsx ***!
-  \*****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
-/* harmony import */ var _data_continents__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/continents */ "./data/continents.js");
-
-// import Nav from './Nav'
-// import Continents from '../../data/continents'
-
-
-function Continent() {
-  const continent = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_2__.useParams)().name;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: `/images/${_data_continents__WEBPACK_IMPORTED_MODULE_1__["default"][continent].image}`,
-    alt: continent
-  }), _data_continents__WEBPACK_IMPORTED_MODULE_1__["default"][continent].countries.map(country => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-      key: country.code
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-      to: `/continent/${country.name}/${country.code}`
-    }, country.name));
-  })));
-}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Continent);
 
 /***/ }),
 
@@ -3505,7 +3465,7 @@ function Country() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       key: neighbour.code
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-      to: `/continent/${neighbour.name}/${neighbour.code}`
+      to: `/month/${neighbour.name}/${neighbour.code}`
     }, neighbour.name));
   }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "None"))));
 }
@@ -3528,9 +3488,43 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Home() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Please select a continent from the nav list"));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Please select a month from the nav list"));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
+
+/***/ }),
+
+/***/ "./client/components/Month.jsx":
+/*!*************************************!*\
+  !*** ./client/components/Month.jsx ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+/* harmony import */ var _data_months__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/months */ "./data/months.js");
+
+
+
+function month() {
+  const month = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_2__.useParams)().name;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: `/images/${_data_months__WEBPACK_IMPORTED_MODULE_1__["default"][month].image}`,
+    alt: month
+  }), _data_months__WEBPACK_IMPORTED_MODULE_1__["default"][month].countries.map(country => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+      key: country.code
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
+      to: `/month/${country.name}/${country.code}`
+    }, country.name));
+  })));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (month);
 
 /***/ }),
 
@@ -3545,277 +3539,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _data_continents__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/continents */ "./data/continents.js");
+/* harmony import */ var _data_months__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/months */ "./data/months.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
 
 
 
 function Nav() {
-  const showContinents = Object.keys(_data_continents__WEBPACK_IMPORTED_MODULE_1__["default"]);
+  const showMonths = Object.keys(_data_months__WEBPACK_IMPORTED_MODULE_1__["default"]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Nav"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
     to: "/"
-  }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, showContinents.map(continent => {
-    console.log(_data_continents__WEBPACK_IMPORTED_MODULE_1__["default"][continent].image);
+  }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, showMonths.map(month => {
+    console.log(_data_months__WEBPACK_IMPORTED_MODULE_1__["default"][month].image);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-      key: continent.name
+      key: month.name
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-      to: `/continents/${continent}`
-    }, continent));
+      to: `/months/${month}`
+    }, month));
   })));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Nav);
-
-/***/ }),
-
-/***/ "./data/continents.js":
-/*!****************************!*\
-  !*** ./data/continents.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  January: {
-    image: 'South-Africa.jpg',
-    countries: [{
-      code: 'AO',
-      name: 'Angola'
-    }, {
-      code: 'EH',
-      name: 'Western Sahara'
-    }, {
-      code: 'ER',
-      name: 'Eritrea'
-    }, {
-      code: 'ET',
-      name: 'Ethiopia'
-    }, {
-      code: 'ZM',
-      name: 'Zambia'
-    }, {
-      code: 'ZW',
-      name: 'Zimbabwe'
-    }]
-  },
-  February: {
-    image: 'Antarctica.jpg',
-    countries: [{
-      code: 'AQ',
-      name: 'Antarctica'
-    }, {
-      code: 'BV',
-      name: 'Bouvet Island'
-    }, {
-      code: 'GS',
-      name: 'South Georgia and the South Sandwich Islands'
-    }, {
-      code: 'HM',
-      name: 'Heard Island and McDonald Islands'
-    }, {
-      code: 'TF',
-      name: 'French Southern Territories'
-    }]
-  },
-  March: {
-    image: 'Mekong-River.jpg',
-    countries: [{
-      code: 'AE',
-      name: 'United Arab Emirates'
-    }, {
-      code: 'AF',
-      name: 'Afghanistan'
-    }, {
-      code: 'AM',
-      name: 'Armenia'
-    }, {
-      code: 'UZ',
-      name: 'Uzbekistan'
-    }, {
-      code: 'VN',
-      name: 'Vietnam'
-    }, {
-      code: 'YE',
-      name: 'Yemen'
-    }]
-  },
-  April: {
-    image: 'Austria.jpg',
-    countries: [{
-      code: 'AD',
-      name: 'Andorra'
-    }, {
-      code: 'AL',
-      name: 'Albania'
-    }, {
-      code: 'SE',
-      name: 'Sweden'
-    }, {
-      code: 'VA',
-      name: 'Vatican'
-    }, {
-      code: 'CS',
-      name: 'Serbia and Montenegro'
-    }]
-  },
-  May: {
-    image: 'Canadian-Rockies.jpg',
-    countries: [{
-      code: 'AG',
-      name: 'Antigua and Barbuda'
-    }, {
-      code: 'AI',
-      name: 'Anguilla'
-    }, {
-      code: 'AN',
-      name: 'Netherlands Antilles'
-    }]
-  },
-  June: {
-    image: 'Venezuela.jpg',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  },
-  July: {
-    image: 'Tonga.jpg',
-    countries: [{
-      code: 'AS',
-      name: 'American Samoa'
-    }, {
-      code: 'AU',
-      name: 'Australia'
-    }, {
-      code: 'TO',
-      name: 'Tonga'
-    }, {
-      code: 'TV',
-      name: 'Tuvalu'
-    }, {
-      code: 'UM',
-      name: 'United States Minor Outlying Islands'
-    }, {
-      code: 'VU',
-      name: 'Vanuatu'
-    }, {
-      code: 'WF',
-      name: 'Wallis and Futuna'
-    }, {
-      code: 'WS',
-      name: 'Samoa'
-    }]
-  },
-  August: {
-    image: 'Venezuela.jpg',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  },
-  September: {
-    image: 'Venezuela.jpg',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  },
-  October: {
-    image: 'Venezuela.jpg',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  },
-  November: {
-    image: 'Venezuela.jpg',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  },
-  December: {
-    image: 'Venezuela.jpg',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  }
-});
 
 /***/ }),
 
@@ -6330,6 +6072,258 @@ __webpack_require__.r(__webpack_exports__);
   neighbours: 'ZA,MZ,BW,ZM',
   flag: '🇿🇼'
 }]);
+
+/***/ }),
+
+/***/ "./data/months.js":
+/*!************************!*\
+  !*** ./data/months.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  January: {
+    image: 'South-Africa.jpg',
+    countries: [{
+      code: 'AO',
+      name: 'Angola'
+    }, {
+      code: 'EH',
+      name: 'Western Sahara'
+    }, {
+      code: 'ER',
+      name: 'Eritrea'
+    }, {
+      code: 'ET',
+      name: 'Ethiopia'
+    }, {
+      code: 'ZM',
+      name: 'Zambia'
+    }, {
+      code: 'ZW',
+      name: 'Zimbabwe'
+    }]
+  },
+  February: {
+    image: 'Antarctica.jpg',
+    countries: [{
+      code: 'AQ',
+      name: 'Antarctica'
+    }, {
+      code: 'BV',
+      name: 'Bouvet Island'
+    }, {
+      code: 'GS',
+      name: 'South Georgia and the South Sandwich Islands'
+    }, {
+      code: 'HM',
+      name: 'Heard Island and McDonald Islands'
+    }, {
+      code: 'TF',
+      name: 'French Southern Territories'
+    }]
+  },
+  March: {
+    image: 'Mekong-River.jpg',
+    countries: [{
+      code: 'AE',
+      name: 'United Arab Emirates'
+    }, {
+      code: 'AF',
+      name: 'Afghanistan'
+    }, {
+      code: 'AM',
+      name: 'Armenia'
+    }, {
+      code: 'UZ',
+      name: 'Uzbekistan'
+    }, {
+      code: 'VN',
+      name: 'Vietnam'
+    }, {
+      code: 'YE',
+      name: 'Yemen'
+    }]
+  },
+  April: {
+    image: 'Austria.jpg',
+    countries: [{
+      code: 'AD',
+      name: 'Andorra'
+    }, {
+      code: 'AL',
+      name: 'Albania'
+    }, {
+      code: 'SE',
+      name: 'Sweden'
+    }, {
+      code: 'VA',
+      name: 'Vatican'
+    }, {
+      code: 'CS',
+      name: 'Serbia and Montenegro'
+    }]
+  },
+  May: {
+    image: 'Canadian-Rockies.jpg',
+    countries: [{
+      code: 'AG',
+      name: 'Antigua and Barbuda'
+    }, {
+      code: 'AI',
+      name: 'Anguilla'
+    }, {
+      code: 'AN',
+      name: 'Netherlands Antilles'
+    }]
+  },
+  June: {
+    image: 'Venezuela.jpg',
+    countries: [{
+      code: 'AR',
+      name: 'Argentina'
+    }, {
+      code: 'BO',
+      name: 'Bolivia'
+    }, {
+      code: 'FK',
+      name: 'Falkland Islands'
+    }, {
+      code: 'UY',
+      name: 'Uruguay'
+    }, {
+      code: 'VE',
+      name: 'Venezuela'
+    }]
+  },
+  July: {
+    image: 'Tonga.jpg',
+    countries: [{
+      code: 'AS',
+      name: 'American Samoa'
+    }, {
+      code: 'AU',
+      name: 'Australia'
+    }, {
+      code: 'TO',
+      name: 'Tonga'
+    }, {
+      code: 'TV',
+      name: 'Tuvalu'
+    }, {
+      code: 'UM',
+      name: 'United States Minor Outlying Islands'
+    }, {
+      code: 'VU',
+      name: 'Vanuatu'
+    }, {
+      code: 'WF',
+      name: 'Wallis and Futuna'
+    }, {
+      code: 'WS',
+      name: 'Samoa'
+    }]
+  },
+  August: {
+    image: 'Venezuela.jpg',
+    countries: [{
+      code: 'AR',
+      name: 'Argentina'
+    }, {
+      code: 'BO',
+      name: 'Bolivia'
+    }, {
+      code: 'FK',
+      name: 'Falkland Islands'
+    }, {
+      code: 'UY',
+      name: 'Uruguay'
+    }, {
+      code: 'VE',
+      name: 'Venezuela'
+    }]
+  },
+  September: {
+    image: 'Venezuela.jpg',
+    countries: [{
+      code: 'AR',
+      name: 'Argentina'
+    }, {
+      code: 'BO',
+      name: 'Bolivia'
+    }, {
+      code: 'FK',
+      name: 'Falkland Islands'
+    }, {
+      code: 'UY',
+      name: 'Uruguay'
+    }, {
+      code: 'VE',
+      name: 'Venezuela'
+    }]
+  },
+  October: {
+    image: 'Venezuela.jpg',
+    countries: [{
+      code: 'AR',
+      name: 'Argentina'
+    }, {
+      code: 'BO',
+      name: 'Bolivia'
+    }, {
+      code: 'FK',
+      name: 'Falkland Islands'
+    }, {
+      code: 'UY',
+      name: 'Uruguay'
+    }, {
+      code: 'VE',
+      name: 'Venezuela'
+    }]
+  },
+  November: {
+    image: 'Venezuela.jpg',
+    countries: [{
+      code: 'AR',
+      name: 'Argentina'
+    }, {
+      code: 'BO',
+      name: 'Bolivia'
+    }, {
+      code: 'FK',
+      name: 'Falkland Islands'
+    }, {
+      code: 'UY',
+      name: 'Uruguay'
+    }, {
+      code: 'VE',
+      name: 'Venezuela'
+    }]
+  },
+  December: {
+    image: 'Venezuela.jpg',
+    countries: [{
+      code: 'AR',
+      name: 'Argentina'
+    }, {
+      code: 'BO',
+      name: 'Bolivia'
+    }, {
+      code: 'FK',
+      name: 'Falkland Islands'
+    }, {
+      code: 'UY',
+      name: 'Uruguay'
+    }, {
+      code: 'VE',
+      name: 'Venezuela'
+    }]
+  }
+});
 
 /***/ }),
 

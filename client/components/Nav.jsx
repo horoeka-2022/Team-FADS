@@ -1,20 +1,20 @@
 import React from 'react'
-import Continents from '../../data/continents'
+import Months from '../../data/months'
 import { Link } from 'react-router-dom'
 
 function Nav() {
-  const showContinents = Object.keys(Continents)
+  const showMonths = Object.keys(Months)
   return (
     <div>
       <h2>Nav</h2>
       <Link to="/">Home</Link>
       <ul>
-        {showContinents.map((continent) => {
-          console.log(Continents[continent].image)
+        {showMonths.map((month) => {
+          console.log(Months[month].image)
           return (
-            <li key={continent.name}>
-              <Link to={`/continents/${continent}`}>{continent}</Link>
-              {/* <img src={`/images/${Continents[continent].image}`}></img> to add image if I feel like it*/}
+            <li key={month.name}>
+              <Link to={`/months/${month}`}>{month}</Link>
+              {/* <img src={`/images/${Months[month].image}`}></img> to add image if I feel like it*/}
             </li>
           )
         })}

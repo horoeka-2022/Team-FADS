@@ -3,11 +3,8 @@ import { Route, Routes } from 'react-router-dom'
 
 import Nav from './Nav'
 import Home from './Home'
-import Continent from './Continent'
+import Month from './Month'
 import Country from './Country'
-
-// import continents from '../../data/continents'
-// import countries from '../../data/countries'
 
 function App() {
   return (
@@ -24,8 +21,8 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/continents/:name" element={<Continent />} />
-          <Route path="/continent/:name/:code" element={<Country />} />
+          <Route path="/months/:name" element={<month />} />
+          <Route path="/month/:name/:code" element={<Country />} />
         </Routes>
       </div>
     </>
