@@ -1,6 +1,6 @@
 export default {
   January: {
-    image: 'South-Africa.jpg',
+    image: 'January.png',
     countries: [
       { code: 'AO', name: 'Angola' },
       { code: 'EH', name: 'Western Sahara' },
@@ -11,7 +11,7 @@ export default {
     ],
   },
   February: {
-    image: 'Antarctica.jpg',
+    image: 'February.png',
     countries: [
       { code: 'AQ', name: 'Antarctica' },
       { code: 'BV', name: 'Bouvet Island' },
@@ -21,7 +21,7 @@ export default {
     ],
   },
   March: {
-    image: 'Mekong-River.jpg',
+    image: 'March.png',
     countries: [
       { code: 'AE', name: 'United Arab Emirates' },
       { code: 'AF', name: 'Afghanistan' },
@@ -32,7 +32,7 @@ export default {
     ],
   },
   April: {
-    image: 'Austria.jpg',
+    image: 'April.png',
     countries: [
       { code: 'AD', name: 'Andorra' },
       { code: 'AL', name: 'Albania' },
@@ -42,7 +42,7 @@ export default {
     ],
   },
   May: {
-    image: 'Canadian-Rockies.jpg',
+    image: 'May.png',
     countries: [
       { code: 'AG', name: 'Antigua and Barbuda' },
       { code: 'AI', name: 'Anguilla' },
@@ -50,7 +50,7 @@ export default {
     ],
   },
   June: {
-    image: 'Venezuela.jpg',
+    image: 'June.png',
     countries: [
       { code: 'AR', name: 'Argentina' },
       { code: 'BO', name: 'Bolivia' },
@@ -60,7 +60,7 @@ export default {
     ],
   },
   July: {
-    image: 'Tonga.jpg',
+    image: 'July.png',
     countries: [
       { code: 'AS', name: 'American Samoa' },
       { code: 'AU', name: 'Australia' },
@@ -73,7 +73,7 @@ export default {
     ],
   },
   August: {
-    image: 'Venezuela.jpg',
+    image: 'August.png',
     countries: [
       { code: 'AR', name: 'Argentina' },
       { code: 'BO', name: 'Bolivia' },
@@ -83,7 +83,7 @@ export default {
     ],
   },
   September: {
-    image: 'Venezuela.jpg',
+    image: 'September.png',
     countries: [
       { code: 'AR', name: 'Argentina' },
       { code: 'BO', name: 'Bolivia' },
@@ -93,7 +93,7 @@ export default {
     ],
   },
   October: {
-    image: 'Venezuela.jpg',
+    image: 'October.png',
     countries: [
       { code: 'AR', name: 'Argentina' },
       { code: 'BO', name: 'Bolivia' },
@@ -103,7 +103,7 @@ export default {
     ],
   },
   November: {
-    image: 'Venezuela.jpg',
+    image: 'November.png',
     countries: [
       { code: 'AR', name: 'Argentina' },
       { code: 'BO', name: 'Bolivia' },
@@ -113,7 +113,7 @@ export default {
     ],
   },
   December: {
-    image: 'Venezuela.jpg',
+    image: 'December.png',
     countries: [
       { code: 'AR', name: 'Argentina' },
       { code: 'BO', name: 'Bolivia' },
