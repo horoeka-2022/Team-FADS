@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <h2>Home</h2>
-      <p>Please select a continent from the nav list</p>
+      <p>Please select a month from the nav list</p>
     </div>
   )
 }

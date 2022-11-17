@@ -34,7 +34,7 @@ function Country() {
             neighbours.map((neighbour) => {
               return (
                 <li key={neighbour.code}>
-                  <Link to={`/continent/${neighbour.name}/${neighbour.code}`}>
+                  <Link to={`/month/${neighbour.name}/${neighbour.code}`}>
                     {neighbour.name}
                   </Link>
                 </li>
