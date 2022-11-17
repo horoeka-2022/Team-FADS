@@ -12,11 +12,13 @@ function App() {
   return (
     <>
       <div className="title">
+        <img src="/images/holiday.gif" alt="Mr Bean Holiday" />
+        <h1>Welcome to Mr Bean's favourite holidays</h1>
         <img
-          src="/images/color_earth.gif"
-          alt="A coloured globe of the earth spinning around on its axis"
+          className="bean2"
+          src="/images/holiday.gif"
+          alt="Mr Bean Holiday"
         />
-        <h1>Welcome to the cool days worldwide</h1>
       </div>
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className="main">

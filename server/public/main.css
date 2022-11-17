@@ -1,5 +1,5 @@
 body {
-  background-color: #faf8f1;
+  background-color: #089fa4;
   color: #0a1520;
   font-family: 'Poppins', sans-serif;
 }
@@ -10,9 +10,20 @@ body {
 }
 
 .title img {
-  height: 5rem;
-  width: 5rem;
-  padding-right: 30px;
+  height: 50 rem;
+  width: 50 rem;
+  padding-right: 300px;
+  padding-left: 30px;
+  border-radius: 20%;
+}
+
+.title .bean2 {
+  height: 50 rem;
+  width: 50 rem;
+  padding-right: 20px;
+  padding-left: 300px;
+  border-radius: 20%;
+  object-position: right;
 }
 
 .main div {
