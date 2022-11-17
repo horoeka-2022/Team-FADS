@@ -3406,13 +3406,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
 /* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Nav */ "./client/components/Nav.jsx");
 /* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home */ "./client/components/Home.jsx");
-/* harmony import */ var _Month__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Month */ "./client/components/Month.jsx");
-/* harmony import */ var _Country__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Country */ "./client/components/Country.jsx");
+/* harmony import */ var _Months__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Months */ "./client/components/Months.jsx");
+/* harmony import */ var _Days__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Days */ "./client/components/Days.jsx");
 
 
 
 
 
+
+// import continents from '../../data/continents'
+// import countries from '../../data/countries'
 
 function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -3420,27 +3423,27 @@ function App() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: "/images/color_earth.gif",
     alt: "A coloured globe of the earth spinning around on its axis"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Navigating the worldwide routes")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Welcome to the cool days worldwide")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "main"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, {
     path: "/",
     element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, {
-    path: "/months/:name",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Month__WEBPACK_IMPORTED_MODULE_3__["default"], null)
+    path: "/continents/:name",
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Months__WEBPACK_IMPORTED_MODULE_3__["default"], null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, {
-    path: "/month/:name/:code",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Country__WEBPACK_IMPORTED_MODULE_4__["default"], null)
+    path: "/continent/:name/:code",
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Days__WEBPACK_IMPORTED_MODULE_4__["default"], null)
   }))));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
 /***/ }),
 
-/***/ "./client/components/Country.jsx":
-/*!***************************************!*\
-  !*** ./client/components/Country.jsx ***!
-  \***************************************/
+/***/ "./client/components/Days.jsx":
+/*!************************************!*\
+  !*** ./client/components/Days.jsx ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -3449,27 +3452,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
-/* harmony import */ var _data_countries__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/countries */ "./data/countries.js");
+/* harmony import */ var _data_days__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/days */ "./data/days.js");
 
 
 
-function Country() {
+function Days() {
   const {
     code
   } = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_2__.useParams)();
-  const countryData = _data_countries__WEBPACK_IMPORTED_MODULE_1__["default"].find(country => country.code === code);
-  const neighbours = countryData.neighbours ? countryData.neighbours.split(',').map(neighbour => _data_countries__WEBPACK_IMPORTED_MODULE_1__["default"].find(country => country.code === neighbour)) : [];
-  console.log(neighbours);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, countryData.name, countryData.flag), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Capital: ", countryData.capital), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Area: ", countryData.areaSqKms, " km2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Population: ", countryData.population), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Currency: ", countryData.currencyCode, " - ", countryData.currencyName), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Neighbouring Countries:")), neighbours.length != 0 ? neighbours.map(neighbour => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-      key: neighbour.code
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-      to: `/month/${neighbour.name}/${neighbour.code}`
-    }, neighbour.name));
-  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "None"))));
+  const DayData = _data_days__WEBPACK_IMPORTED_MODULE_1__["default"].find(day => day.code === code);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, DayData.name, DayData.flag), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Name: ", DayData.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Month: ", DayData.month, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Description ", DayData.description))));
 }
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Country);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Days);
 
 /***/ }),
 
@@ -3494,10 +3488,10 @@ function Home() {
 
 /***/ }),
 
-/***/ "./client/components/Month.jsx":
-/*!*************************************!*\
-  !*** ./client/components/Month.jsx ***!
-  \*************************************/
+/***/ "./client/components/Months.jsx":
+/*!**************************************!*\
+  !*** ./client/components/Months.jsx ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -3561,10 +3555,10 @@ function Nav() {
 
 /***/ }),
 
-/***/ "./data/countries.js":
-/*!***************************!*\
-  !*** ./data/countries.js ***!
-  \***************************/
+/***/ "./data/days.js":
+/*!**********************!*\
+  !*** ./data/days.js ***!
+  \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
