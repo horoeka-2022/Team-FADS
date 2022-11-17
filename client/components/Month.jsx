@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 
 import data from '../../data/months'
 
-function month() {
+function Month() {
   const month = useParams().name
   return (
     <>
@@ -22,4 +22,4 @@ function month() {
     </>
   )
 }
-export default month
+export default Month

@@ -3511,7 +3511,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function month() {
+function Month() {
   const month = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_2__.useParams)().name;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: `/images/${_data_months__WEBPACK_IMPORTED_MODULE_1__["default"][month].image}`,
@@ -3524,7 +3524,7 @@ function month() {
     }, country.name));
   })));
 }
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (month);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Month);
 
 /***/ }),
 
