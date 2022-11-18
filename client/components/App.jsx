@@ -21,8 +21,8 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/continents/:name" element={<Months />} />
-          <Route path="/continent/:name/:code" element={<Days />} />
+          <Route path="/months/:name" element={<Months />} />
+          <Route path="/months/:name/:code" element={<Days />} />
         </Routes>
       </div>
     </>
