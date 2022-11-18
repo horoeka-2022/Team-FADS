@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/@remix-run/router/dist/router.js":
@@ -8,6 +7,7 @@
   \*******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AbortedDeferredError": () => (/* binding */ AbortedDeferredError),
@@ -3398,6 +3398,7 @@ function getTargetMatch(matches, location) {
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3420,7 +3421,6 @@ __webpack_require__.r(__webpack_exports__);
 function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "title"
-<<<<<<< HEAD
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: "/images/holiday.gif",
     alt: " Holiday pic"
@@ -3429,9 +3429,6 @@ function App() {
     src: "/images/holiday.gif",
     alt: "Holiday pic"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-=======
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "The best place to make new connections are festivals.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
->>>>>>> ee18d9f6a11bf9572aae12fbda65a51d58aff89c
     className: "main"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, {
     path: "/",
@@ -3454,40 +3451,23 @@ function App() {
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
-<<<<<<< HEAD
 /* harmony import */ var _data_days__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/days */ "./data/days.js");
 
 
 
 function Days() {
-=======
-/* harmony import */ var _data_countries__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/countries */ "./data/countries.js");
-
-
-
-//import Neighbour from './Neighbour'
-
-function Country() {
->>>>>>> ee18d9f6a11bf9572aae12fbda65a51d58aff89c
   const {
-    name
+    code
   } = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_2__.useParams)();
-<<<<<<< HEAD
   const DayData = _data_days__WEBPACK_IMPORTED_MODULE_1__["default"].find(day => day.code === code);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, DayData.name, DayData.flag), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Name: ", DayData.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Month: ", DayData.month, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Description ", DayData.description))));
-=======
-  // console.log(name)
-  const countryData = _data_countries__WEBPACK_IMPORTED_MODULE_1__["default"].find(element => element.name === name);
-  //console.log(countryData)
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, countryData.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, 'Area: ' + countryData.areaSqKms + ' km sq'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, 'Capital: ' + countryData.capital), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, 'Population: ' + countryData.population))));
->>>>>>> ee18d9f6a11bf9572aae12fbda65a51d58aff89c
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Days);
 
@@ -3499,6 +3479,7 @@ function Country() {
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3520,6 +3501,7 @@ function Home() {
   \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3528,15 +3510,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
 /* harmony import */ var _data_months__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/months */ "./data/months.js");
+/* harmony import */ var _data_months__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_data_months__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
 function Month() {
   const month = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_2__.useParams)().name;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: `/images/${_data_months__WEBPACK_IMPORTED_MODULE_1__["default"][month].image}`,
+    src: `/images/${(_data_months__WEBPACK_IMPORTED_MODULE_1___default())[month].image}`,
     alt: month
-  }), _data_months__WEBPACK_IMPORTED_MODULE_1__["default"][month].countries.map(country => {
+  }), (_data_months__WEBPACK_IMPORTED_MODULE_1___default())[month].countries.map(country => {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       key: country.code
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
@@ -3554,22 +3537,24 @@ function Month() {
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _data_months__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/months */ "./data/months.js");
+/* harmony import */ var _data_months__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_data_months__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
 
 
 
 function Nav() {
-  const showMonths = Object.keys(_data_months__WEBPACK_IMPORTED_MODULE_1__["default"]);
+  const showMonths = Object.keys((_data_months__WEBPACK_IMPORTED_MODULE_1___default()));
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Nav"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
     to: "/"
   }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, showMonths.map(month => {
-    console.log(_data_months__WEBPACK_IMPORTED_MODULE_1__["default"][month].image);
+    console.log((_data_months__WEBPACK_IMPORTED_MODULE_1___default())[month].image);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       key: month.name
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
@@ -3587,6 +3572,7 @@ function Nav() {
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -6099,251 +6085,9 @@ __webpack_require__.r(__webpack_exports__);
 /*!************************!*\
   !*** ./data/months.js ***!
   \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  January: {
-    image: 'January.png',
-    countries: [{
-      code: 'AO',
-      name: 'Angola'
-    }, {
-      code: 'EH',
-      name: 'Western Sahara'
-    }, {
-      code: 'ER',
-      name: 'Eritrea'
-    }, {
-      code: 'ET',
-      name: 'Ethiopia'
-    }, {
-      code: 'ZM',
-      name: 'Zambia'
-    }, {
-      code: 'ZW',
-      name: 'Zimbabwe'
-    }]
-  },
-  February: {
-    image: 'February.png',
-    countries: [{
-      code: 'AQ',
-      name: 'Antarctica'
-    }, {
-      code: 'BV',
-      name: 'Bouvet Island'
-    }, {
-      code: 'GS',
-      name: 'South Georgia and the South Sandwich Islands'
-    }, {
-      code: 'HM',
-      name: 'Heard Island and McDonald Islands'
-    }, {
-      code: 'TF',
-      name: 'French Southern Territories'
-    }]
-  },
-  March: {
-    image: 'March.png',
-    countries: [{
-      code: 'AE',
-      name: 'United Arab Emirates'
-    }, {
-      code: 'AF',
-      name: 'Afghanistan'
-    }, {
-      code: 'AM',
-      name: 'Armenia'
-    }, {
-      code: 'UZ',
-      name: 'Uzbekistan'
-    }, {
-      code: 'VN',
-      name: 'Vietnam'
-    }, {
-      code: 'YE',
-      name: 'Yemen'
-    }]
-  },
-  April: {
-    image: 'April.png',
-    countries: [{
-      code: 'AD',
-      name: 'Andorra'
-    }, {
-      code: 'AL',
-      name: 'Albania'
-    }, {
-      code: 'SE',
-      name: 'Sweden'
-    }, {
-      code: 'VA',
-      name: 'Vatican'
-    }, {
-      code: 'CS',
-      name: 'Serbia and Montenegro'
-    }]
-  },
-  May: {
-    image: 'May.png',
-    countries: [{
-      code: 'AG',
-      name: 'Antigua and Barbuda'
-    }, {
-      code: 'AI',
-      name: 'Anguilla'
-    }, {
-      code: 'AN',
-      name: 'Netherlands Antilles'
-    }]
-  },
-  June: {
-    image: 'June.png',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  },
-  July: {
-    image: 'July.png',
-    countries: [{
-      code: 'AS',
-      name: 'American Samoa'
-    }, {
-      code: 'AU',
-      name: 'Australia'
-    }, {
-      code: 'TO',
-      name: 'Tonga'
-    }, {
-      code: 'TV',
-      name: 'Tuvalu'
-    }, {
-      code: 'UM',
-      name: 'United States Minor Outlying Islands'
-    }, {
-      code: 'VU',
-      name: 'Vanuatu'
-    }, {
-      code: 'WF',
-      name: 'Wallis and Futuna'
-    }, {
-      code: 'WS',
-      name: 'Samoa'
-    }]
-  },
-  August: {
-    image: 'August.png',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  },
-  September: {
-    image: 'September.png',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  },
-  October: {
-    image: 'October.png',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  },
-  November: {
-    image: 'November.png',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  },
-  December: {
-    image: 'December.png',
-    countries: [{
-      code: 'AR',
-      name: 'Argentina'
-    }, {
-      code: 'BO',
-      name: 'Bolivia'
-    }, {
-      code: 'FK',
-      name: 'Falkland Islands'
-    }, {
-      code: 'UY',
-      name: 'Uruguay'
-    }, {
-      code: 'VE',
-      name: 'Venezuela'
-    }]
-  }
-});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/sadhn_l6clu75/devacademy/workspace/newsadhna/data/months.js: Expecting Unicode escape sequence \\uXXXX. (9423:24)\n\n\u001b[0m \u001b[90m 9421 |\u001b[39m       {\u001b[0m\n\u001b[0m \u001b[90m 9422 |\u001b[39m           date\u001b[33m:\u001b[39m \u001b[32m'21'\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 9423 |\u001b[39m           day\u001b[33m:\u001b[39m \u001b[32m'Rock '\u001b[39mn\u001b[37m\u001b[41m\u001b[1m\\\u001b[22m\u001b[49m\u001b[39m\u001b[32m'Roll Concert Day'\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m      |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 9424 |\u001b[39m       }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 9425 |\u001b[39m       {\u001b[0m\n\u001b[0m \u001b[90m 9426 |\u001b[39m           date\u001b[33m:\u001b[39m \u001b[32m'21'\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n    at instantiate (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:67:32)\n    at constructor (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:364:12)\n    at JSXParserMixin.raise (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:3364:19)\n    at JSXParserMixin.readWord1 (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:3313:16)\n    at JSXParserMixin.readWord (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:3338:23)\n    at JSXParserMixin.getTokenFromCode (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:3008:16)\n    at JSXParserMixin.getTokenFromCode (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:7266:18)\n    at JSXParserMixin.nextToken (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:2450:10)\n    at JSXParserMixin.next (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:2365:10)\n    at JSXParserMixin.parseLiteralAtNode (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11747:10)\n    at JSXParserMixin.parseLiteral (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11752:17)\n    at JSXParserMixin.parseStringLiteral (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11755:17)\n    at JSXParserMixin.parseExprAtom (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11436:21)\n    at JSXParserMixin.parseExprAtom (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:7238:20)\n    at JSXParserMixin.parseExprSubscripts (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11171:23)\n    at JSXParserMixin.parseUpdate (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11153:21)\n    at JSXParserMixin.parseMaybeUnary (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11127:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10956:61)\n    at JSXParserMixin.parseExprOps (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10962:23)\n    at JSXParserMixin.parseMaybeConditional (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10937:23)\n    at JSXParserMixin.parseMaybeAssign (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10895:21)\n    at /home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10863:39\n    at JSXParserMixin.allowInAnd (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:12640:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10863:17)\n    at JSXParserMixin.parseObjectProperty (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:12127:83)\n    at JSXParserMixin.parseObjPropValue (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:12154:100)\n    at JSXParserMixin.parsePropertyDefinition (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:12083:17)\n    at JSXParserMixin.parseObjectLike (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11993:21)\n    at JSXParserMixin.parseExprAtom (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11464:23)\n    at JSXParserMixin.parseExprAtom (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:7238:20)\n    at JSXParserMixin.parseExprSubscripts (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11171:23)\n    at JSXParserMixin.parseUpdate (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11153:21)\n    at JSXParserMixin.parseMaybeUnary (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11127:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10956:61)\n    at JSXParserMixin.parseExprOps (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10962:23)\n    at JSXParserMixin.parseMaybeConditional (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10937:23)\n    at JSXParserMixin.parseMaybeAssign (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10895:21)\n    at /home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10863:39\n    at JSXParserMixin.allowInAnd (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:12640:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10863:17)\n    at JSXParserMixin.parseExprListItem (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:12380:18)\n    at JSXParserMixin.parseExprList (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:12352:22)\n    at JSXParserMixin.parseArrayLike (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:12240:26)\n    at JSXParserMixin.parseExprAtom (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11455:23)\n    at JSXParserMixin.parseExprAtom (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:7238:20)\n    at JSXParserMixin.parseExprSubscripts (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11171:23)\n    at JSXParserMixin.parseUpdate (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11153:21)\n    at JSXParserMixin.parseMaybeUnary (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:11127:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10956:61)\n    at JSXParserMixin.parseExprOps (/home/sadhn_l6clu75/devacademy/workspace/newsadhna/node_modules/@babel/parser/lib/index.js:10962:23)");
 
 /***/ }),
 
@@ -6353,6 +6097,7 @@ __webpack_require__.r(__webpack_exports__);
   \*********************************************/
 /***/ ((module) => {
 
+"use strict";
 /*
 object-assign
 (c) Sindre Sorhus
@@ -6453,6 +6198,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 /** @license React v17.0.2
  * react-dom.development.js
  *
@@ -32720,6 +32466,7 @@ exports.version = ReactVersion;
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 function checkDCE() {
@@ -32763,6 +32510,7 @@ if (false) {} else {
   \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AbortedDeferredError": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_1__.AbortedDeferredError),
@@ -33741,6 +33489,7 @@ function warning(cond, message) {
   \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 var react__WEBPACK_IMPORTED_MODULE_1___namespace_cache;
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -35156,6 +34905,7 @@ function createMemoryRouter(routes, opts) {
   \*****************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 /** @license React v17.0.2
  * react.development.js
  *
@@ -37499,6 +37249,7 @@ exports.version = ReactVersion;
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -37514,6 +37265,7 @@ if (false) {} else {
   \*********************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
+"use strict";
 /** @license React v0.20.2
  * scheduler-tracing.development.js
  *
@@ -37871,6 +37623,7 @@ exports.unstable_wrap = unstable_wrap;
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
+"use strict";
 /** @license React v0.20.2
  * scheduler.development.js
  *
@@ -38527,6 +38280,7 @@ exports.unstable_wrapCallback = unstable_wrapCallback;
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -38542,6 +38296,7 @@ if (false) {} else {
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -38578,6 +38333,18 @@ if (false) {} else {
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/create fake namespace object */
 /******/ 	(() => {
 /******/ 		var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
@@ -38638,8 +38405,9 @@ if (false) {} else {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 /*!*************************!*\
   !*** ./client/index.js ***!
   \*************************/
