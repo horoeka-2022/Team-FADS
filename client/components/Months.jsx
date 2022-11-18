@@ -1,25 +1,21 @@
 import React from 'react'
-import { useParams, Link } from 'react-router-dom'
-
 import data from '../../data/months'
+import { useParams } from 'react-router-dom'
 
-function Month() {
-  const month = useParams().name
+function Months() {
+  const { name } = useParams()
+  const daysList = data[name]
+  console.log(name)
   return (
-    <>
+    <div>
+      <h2>{name}</h2>
       <ul>
-        <img src={`/images/${data[month].image}`} alt={month} />
-        {data[month].countries.map((country) => {
-          return (
-            <li key={country.code}>
-              <Link to={`/month/${country.name}/${country.code}`}>
-                {country.name}
-              </Link>
-            </li>
-          )
+        {data[name].days.map((day, idx) => {
+          return <li key={idx}>{day.date + ' : ' + day.day}</li>
         })}
       </ul>
-    </>
+    </div>
   )
 }
-export default Month
+
+export default Months
