@@ -3420,6 +3420,7 @@ __webpack_require__.r(__webpack_exports__);
 function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "title"
+<<<<<<< HEAD
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: "/images/holiday.gif",
     alt: " Holiday pic"
@@ -3428,6 +3429,9 @@ function App() {
     src: "/images/holiday.gif",
     alt: "Holiday pic"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+=======
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "The best place to make new connections are festivals.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+>>>>>>> ee18d9f6a11bf9572aae12fbda65a51d58aff89c
     className: "main"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, {
     path: "/",
@@ -3456,16 +3460,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
+<<<<<<< HEAD
 /* harmony import */ var _data_days__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/days */ "./data/days.js");
 
 
 
 function Days() {
+=======
+/* harmony import */ var _data_countries__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data/countries */ "./data/countries.js");
+
+
+
+//import Neighbour from './Neighbour'
+
+function Country() {
+>>>>>>> ee18d9f6a11bf9572aae12fbda65a51d58aff89c
   const {
-    code
+    name
   } = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_2__.useParams)();
+<<<<<<< HEAD
   const DayData = _data_days__WEBPACK_IMPORTED_MODULE_1__["default"].find(day => day.code === code);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, DayData.name, DayData.flag), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Name: ", DayData.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Month: ", DayData.month, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Description ", DayData.description))));
+=======
+  // console.log(name)
+  const countryData = _data_countries__WEBPACK_IMPORTED_MODULE_1__["default"].find(element => element.name === name);
+  //console.log(countryData)
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, countryData.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, 'Area: ' + countryData.areaSqKms + ' km sq'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, 'Capital: ' + countryData.capital), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, 'Population: ' + countryData.population))));
+>>>>>>> ee18d9f6a11bf9572aae12fbda65a51d58aff89c
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Days);
 
