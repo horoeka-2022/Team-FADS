@@ -1752,7 +1752,7 @@ days: [
       {
           date: '12',
           day: 'Black Pants Day',
-          'Description': 'On the 12th of January, April, July, and October, wear your new black pants.'
+          description: 'On the 12th of January, April, July, and October, wear your new black pants.'
       },
       {
           date: '13',
@@ -4084,7 +4084,7 @@ days: [
       },
       {
           date: '31',
-          day: 'Rock 'n\'Roll Evangelism Day'
+          day: 'Rock n Roll Evangelism Day'
       },
       {
           date: '31',
@@ -4114,8 +4114,8 @@ days: [
           date: '31',
           day: 'Westerns Are Wonderful Day'
       }
-  ],
-}
+  ]
+},
   February:  {
       image: 'February.png',
 days: [
@@ -4957,7 +4957,7 @@ days: [
       {
           date: '7',
           day: 'Black Monday',
-          'Description': 'In 2000, a hacker or team of hackers unleashed a systematic denial-of-service attack against some of the Internet\'s top companies, including eBay, Amazon.com, CNN.com, Yahoo!, and ZDNet.'
+          description: 'In 2000, a hacker or team of hackers unleashed a systematic denial-of-service attack against some of the Internet\'s top companies, including eBay, Amazon.com, CNN.com, Yahoo!, and ZDNet.'
       },
       {
           date: '8',
@@ -5694,12 +5694,12 @@ days: [
       {
           date: '13',
           day: 'Black Basketball Day',
-          'Description': 'On February 13, 1923, The Rennaissance, a professional basketball team made up of blacks, was organized. It was the first black professional basketball team.'
+          description: 'On February 13, 1923, The Rennaissance, a professional basketball team made up of blacks, was organized. It was the first black professional basketball team.'
       },
       {
           date: '13',
           day: 'Black Love Day',
-          'Description': 'Celebrate love within the black community on the day before Valentines.'
+          description: 'Celebrate love within the black community on the day before Valentines.'
       },
       {
           date: '14',
@@ -7296,7 +7296,7 @@ days: [
       {
           date: '26',
           day: 'Black Middleweight Boxer Day',
-          'Description': 'On February 26, 1926, Theodore \'Georgia Deacon\' Flowers became the first black middleweight boxing champion.'
+          description: 'On February 26, 1926, Theodore \'Georgia Deacon\' Flowers became the first black middleweight boxing champion.'
       },
       {
           date: '27',
@@ -7405,7 +7405,7 @@ days: [
       {
           date: '27',
           day: 'Black American Winter Olympics Day',
-          'Description': '800-841-1994. Debi Thomas, in winning a bronze medal at the 1988 Winter Olympics, became the first American black to win a medal at a Winter Olympics.'
+          description: '800-841-1994. Debi Thomas, in winning a bronze medal at the 1988 Winter Olympics, became the first American black to win a medal at a Winter Olympics.'
       },
       {
           date: '28',
@@ -7515,7 +7515,8 @@ days: [
           date: '29',
           day: 'Saint Oswald of Worcester Feast Day'
       }
-  ],
+  ]
+},
   March:  {
       image: 'March.png',
 days: [
@@ -9420,7 +9421,7 @@ days: [
       },
       {
           date: '21',
-          day: 'Rock 'n\'Roll Concert Day'
+          day: 'Rock n Roll Concert Day'
       },
       {
           date: '21',
@@ -9525,7 +9526,7 @@ days: [
       {
           date: '22',
           day: 'Black Figure Skater Champion Day',
-          'Description': 'In 1986, Debi Thomas became the first African-American to win a world championship in figure skating. She would go on to also become the first black to win a medal at the Winter Olympics.'
+          description: 'In 1986, Debi Thomas became the first African-American to win a world championship in figure skating. She would go on to also become the first black to win a medal at the Winter Olympics.'
       },
       {
           date: '23',
@@ -9654,7 +9655,7 @@ days: [
       {
           date: '24',
           day: 'Black Actors Day',
-          'Description': 'In 2002, black actors finally got their due when the Oscar for best actor went to Denzel Washington, the Oscar for best actress went to Halle Berry, and a lifetime achievement award was given to Sidney Poitier. Berry was the first black actress to win the'
+          description: 'In 2002, black actors finally got their due when the Oscar for best actor went to Denzel Washington, the Oscar for best actress went to Halle Berry, and a lifetime achievement award was given to Sidney Poitier. Berry was the first black actress to win the'
       },
       {
           date: '25',
@@ -10157,6 +10158,7 @@ days: [
           day: 'Virgin Islands Transfer Day'
       }
   ],
+},
   April:  {
       image: 'April.png',
 days: [
@@ -10169,7 +10171,7 @@ days: [
       },
       {
           date: '1',
-          day: 'April Fools' Day'
+          day: 'April Fools\' Day'
       },
       {
           date: '1',
@@ -10478,7 +10480,7 @@ days: [
       {
           date: '3',
           day: 'Black Voters Day',
-          'Description': 'In 1944, the U.S. Supreme Court rulled that African-Americans were ruled legally eligible to vote.'
+          description: 'In 1944, the U.S. Supreme Court rulled that African-Americans were ruled legally eligible to vote.'
       },
       {
           date: '4',
@@ -11075,7 +11077,7 @@ days: [
       {
           date: '11',
           day: 'Black Major Leaguer Day',
-          'Description': 'In 1947, Jackie Robinson of the Brooklyn Dodgers became the first black to play major league baseball. He signed his contract on October 23, 1945.'
+          description: 'In 1947, Jackie Robinson of the Brooklyn Dodgers became the first black to play major league baseball. He signed his contract on October 23, 1945.'
       },
       {
           date: '12',
@@ -11188,12 +11190,12 @@ days: [
       {
           date: '12',
           day: 'Black Pants Day',
-          'Description': 'On the 12th of January, April, July, and October, wear your new black pants.'
+          description: 'On the 12th of January, April, July, and October, wear your new black pants.'
       },
       {
           date: '12',
           day: 'Black Umpire Day',
-          'Description': 'In 1966, Emmett Ashford became the first black umpire to officiate a major league baseball game.'
+          description: 'In 1966, Emmett Ashford became the first black umpire to officiate a major league baseball game.'
       },
       {
           date: '13',
@@ -11262,7 +11264,7 @@ days: [
       {
           date: '13',
           day: 'Black Best Actor Day',
-          'Description': 'In 1964, Sidney Poitier won the best actor Oscar for his starring role in \'Lillies of the Field.\' He was the first black actor to win an Oscar for best actor.'
+          description: 'In 1964, Sidney Poitier won the best actor Oscar for his starring role in \'Lillies of the Field.\' He was the first black actor to win an Oscar for best actor.'
       },
       {
           date: '14',
@@ -12171,12 +12173,12 @@ days: [
       {
           date: '24',
           day: 'Black Medal of Honor Day',
-          'Description': 'In 1991, black World War I corporal Greddie Stowers was awarded the Medal of Honor posthumously, thus becoming the first black to receive the Medal of Honor for valor in combat.'
+          description: 'In 1991, black World War I corporal Greddie Stowers was awarded the Medal of Honor posthumously, thus becoming the first black to receive the Medal of Honor for valor in combat.'
       },
       {
           date: '24',
           day: 'Black Medical Association Day',
-          'Description': 'In 1884, the Medico-Chirurgical Society was formed in Washington, D.C. It is the oldest black medical association.'
+          description: 'In 1884, the Medico-Chirurgical Society was formed in Washington, D.C. It is the oldest black medical association.'
       },
       {
           date: '25',
@@ -12252,7 +12254,7 @@ days: [
       },
       {
           date: '25',
-          day: 'Rock '/n Roll High School Day'
+          day: 'Rock n Roll High School Day'
       },
       {
           date: '25',
@@ -12341,10 +12343,6 @@ days: [
       {
           date: '26',
           day: 'Hug an Australian Day'
-      },
-      {
-          date: '26',
-          day: 'Israel Independence Day (Yom Ha'atzmauth)'
       },
       {
           date: '26',
@@ -12711,6 +12709,7 @@ days: [
           day: 'YWCA National Day of Commitment to Eliminate Racism'
       }
   ],
+},
   May:  {
       image: 'May.png',
 days: [
@@ -12892,7 +12891,7 @@ days: [
       {
           date: '1',
           day: 'Black Pulitzer Prize Day',
-          'Description': 'In 1950, black poet Gwendolyn Brooks won the Pulitzer Prize for poetry. She was the first black to win the Pulitzer.'
+          description: 'In 1950, black poet Gwendolyn Brooks won the Pulitzer Prize for poetry. She was the first black to win the Pulitzer.'
       },
       {
           date: '2',
@@ -13121,7 +13120,7 @@ days: [
       {
           date: '3',
           day: 'Black Lawyers Day',
-          'Description': 'In 1845, Macon B. Allen became the first black lawyer admitted to the bar in Massachusetts. Having been admitted to the bar in Maine the previous year, Allen was the first licensed African-American attorney in the U.S.'
+          description: 'In 1845, Macon B. Allen became the first black lawyer admitted to the bar in Massachusetts. Having been admitted to the bar in Maine the previous year, Allen was the first licensed African-American attorney in the U.S.'
       },
       {
           date: '4',
@@ -13482,7 +13481,7 @@ days: [
       {
           date: '6',
           day: 'Black Masons Day',
-          'Description': 'In 1787, Prince Hall, the first black Masonic lodge, was founded in Boston, Massachusetts.'
+          description: 'In 1787, Prince Hall, the first black Masonic lodge, was founded in Boston, Massachusetts.'
       },
       {
           date: '7',
@@ -14027,7 +14026,7 @@ days: [
       {
           date: '12',
           day: 'Black No-Hitter Day',
-          'Description': 'In 1955, Chicago Cubs pitcher Sam Jones became the first black to pitch a no-hitter in major league baseball.'
+          description: 'In 1955, Chicago Cubs pitcher Sam Jones became the first black to pitch a no-hitter in major league baseball.'
       },
       {
           date: '13',
@@ -15358,7 +15357,8 @@ days: [
           day: 'World No Tobacco Day'
       }
   ],
-  'June':  {
+},
+  June:  {
       image: 'June.png',
 days: [
           { date:'1',
@@ -15727,10 +15727,6 @@ days: [
       {
           date: '6',
           day: 'Heart Mania Day'
-      },
-      {
-          date: '6',
-          day: 'International Mothers' Peace Day'
       },
       {
           date: '6',
@@ -16503,7 +16499,7 @@ days: [
       {
           date: '15',
           day: 'Black Female Pilots Day',
-          'Description': 'In 1921, Bessie Coleman became the first black female in the U.S. to receive her pilots license.'
+          description: 'In 1921, Bessie Coleman became the first black female in the U.S. to receive her pilots license.'
       },
       {
           date: '16',
@@ -16772,7 +16768,7 @@ days: [
       {
           date: '18',
           day: 'Black Naval Officer Day',
-          'Description': 'In 1942, the U.S. Navy commissioned its first black officer, Bernard Whitfield Robinson, a medical student from Harvard University.'
+          description: 'In 1942, the U.S. Navy commissioned its first black officer, Bernard Whitfield Robinson, a medical student from Harvard University.'
       },
       {
           date: '19',
@@ -17544,7 +17540,7 @@ days: [
       },
       {
           date: '28',
-          day: 'Amos 'n\'Andy TV Day'
+          day: 'Amos n Andy TV Day'
       },
       {
           date: '28',
@@ -17593,7 +17589,7 @@ days: [
       {
           date: '28',
           day: 'Black Diamond Day',
-          'Description': 'In 2001, the largest known black diamond, weighing 489.07 carats, was auctioned off in the town of Dole, France.'
+          description: 'In 2001, the largest known black diamond, weighing 489.07 carats, was auctioned off in the town of Dole, France.'
       },
       {
           date: '29',
@@ -17736,7 +17732,8 @@ days: [
           day: 'Zaire Independence Day'
       }
   ],
-  'July:  {
+},
+  July:  {
       image: 'July.png',
 days: [
           { date:'1',
@@ -18141,7 +18138,7 @@ days: [
       {
           date: '5',
           day: 'Black American Wimbledon Day',
-          'Description': 'In 1975, Arthur Ashe became the first black American tennis player to win the men\'s singles championship at Wimbledon. Web: http://www.wimbledon.org.'
+          description: 'In 1975, Arthur Ashe became the first black American tennis player to win the men\'s singles championship at Wimbledon. Web: http://www.wimbledon.org.'
       },
       {
           date: '6',
@@ -18242,12 +18239,12 @@ days: [
       {
           date: '6',
           day: 'Black American Novelist Day',
-          'Description': 'In 1853, William Wells Brown published _Clotel_, the first novel by a black American.'
+          description: 'In 1853, William Wells Brown published _Clotel_, the first novel by a black American.'
       },
       {
           date: '6',
           day: 'Black U.S. Attorney Day',
-          'Description': 'In 1961, Cecil Poole was sworn in as the first black U.S. attorney. He was appointed for Northern California.'
+          description: 'In 1961, Cecil Poole was sworn in as the first black U.S. attorney. He was appointed for Northern California.'
       },
       {
           date: '7',
@@ -18728,7 +18725,7 @@ days: [
       {
           date: '12',
           day: 'Black Pants Day',
-          'Description': 'On the 12th of January, April, July, and October, wear your new black pants.'
+          description: 'On the 12th of January, April, July, and October, wear your new black pants.'
       },
       {
           date: '13',
@@ -18776,12 +18773,8 @@ days: [
       },
       {
           date: '13',
-          day: 'Witches' Ring Crop Circle Day'
-      },
-      {
-          date: '13',
           day: 'Bison Lovers Day',
-          'Description': 'But don\'t love them too much.'
+          description: 'But don\'t love them too much.'
       },
       {
           date: '14',
@@ -19334,7 +19327,7 @@ days: [
       {
           date: '21',
           day: 'Black Daily Newspaper Day',
-          'Description': 'In 1864, the New Orleans Tribune became the first daily black newspaper to be published in the United States. It was published in both English and French.'
+          description: 'In 1864, the New Orleans Tribune became the first daily black newspaper to be published in the United States. It was published in both English and French.'
       },
       {
           date: '22',
@@ -19407,7 +19400,7 @@ days: [
       {
           date: '22',
           day: 'Black Family Day',
-          'Description': 'On the fourth Friday of July, celebrate black family life. In Saint Louis, Missouri, a week-long series of events celebrate the family life of their black community.'
+          description: 'On the fourth Friday of July, celebrate black family life. In Saint Louis, Missouri, a week-long series of events celebrate the family life of their black community.'
       },
       {
           date: '23',
@@ -20034,6 +20027,7 @@ days: [
           day: 'U.S. Mint Building Day'
       }
   ],
+},
   August:  {
       image: 'August.png',
 days: [
@@ -20275,7 +20269,7 @@ days: [
       {
           date: '4',
           day: 'Black South African Olympic Champion Day',
-          'Description': '800-841-1994. In 1996, Josia Thugwane won the closest marathon in Olympic history by beating Korean Lee Bong-ju by three seconds, thus becoming the first black South African to win a gold medal in the Olympics.'
+          description: '800-841-1994. In 1996, Josia Thugwane won the closest marathon in Olympic history by beating Korean Lee Bong-ju by three seconds, thus becoming the first black South African to win a gold medal in the Olympics.'
       },
       {
           date: '5',
@@ -21512,12 +21506,12 @@ days: [
       {
           date: '19',
           day: 'Bitches Brew Day',
-          'Description': 'In 1969, Miles Davis, John McLaughlin, Chick Corea, and Wayne Shorter recorded the classic \'Bitches Brew\' album. Rock on!'
+          description: 'In 1969, Miles Davis, John McLaughlin, Chick Corea, and Wayne Shorter recorded the classic \'Bitches Brew\' album. Rock on!'
       },
       {
           date: '19',
           day: 'Black Diamond Beetle Day',
-          'Description': 'In 1999, WakuWaku Land, a Japanese insect specialty store, sold a rare Black Diamond Beetle for a record 10 million yen ($90,000). The 80mm live beetle could live up to ten years.'
+          description: 'In 1999, WakuWaku Land, a Japanese insect specialty store, sold a rare Black Diamond Beetle for a record 10 million yen ($90,000). The 80mm live beetle could live up to ten years.'
       },
       {
           date: '20',
@@ -21746,7 +21740,7 @@ days: [
       {
           date: '22',
           day: 'Black Felt Hat Day',
-          'Description': 'At a 1991 Sotheby\'s auction in London, Jimi Hendrix\'s black felt hat sold for $24,200, the most ever paid for a hat.'
+          description: 'At a 1991 Sotheby\'s auction in London, Jimi Hendrix\'s black felt hat sold for $24,200, the most ever paid for a hat.'
       },
       {
           date: '23',
@@ -22395,7 +22389,7 @@ days: [
       {
           date: '30',
           day: 'Black Astronaut Day',
-          'Description': 'Lt. Col. Guion Bluford Jr., a black astronaut, flew on the shuttle Challenger in 1983. He became the first black U.S. astronaut to make it into space. He was chosen on April 19, 1982. Web: http://vesuvius.jsc.nasa.gov/er/seh/bluford.htm.'
+          description: 'Lt. Col. Guion Bluford Jr., a black astronaut, flew on the shuttle Challenger in 1983. He became the first black U.S. astronaut to make it into space. He was chosen on April 19, 1982. Web: http://vesuvius.jsc.nasa.gov/er/seh/bluford.htm.'
       },
       {
           date: '31',
@@ -22470,6 +22464,7 @@ days: [
           day: 'Trinidad and Tobago Independence Day'
       }
   ],
+},
   September:  {
       image: 'September.png',
 days: [
@@ -22602,10 +22597,6 @@ days: [
       },
       {
           date: '2',
-          day: 'Beer '/n Can Day'
-      },
-      {
-          date: '2',
           day: 'Bison Ten Yell Day'
       },
       {
@@ -22699,7 +22690,7 @@ days: [
       {
           date: '2',
           day: 'Bison Ten Yell Day',
-          'Description': 'Note the play on words with bicentennial day.'
+          description: 'Note the play on words with bicentennial day.'
       },
       {
           date: '3',
@@ -23108,7 +23099,7 @@ days: [
       {
           date: '7',
           day: 'Bishop Tutu Day',
-          'Description': 'In 1986, Bishop Desmond Tutu was installed as the leader of the Anglican Church in South Africa, the first black to lead the church.'
+          description: 'In 1986, Bishop Desmond Tutu was installed as the leader of the Anglican Church in South Africa, the first black to lead the church.'
       },
       {
           date: '8',
@@ -23185,7 +23176,7 @@ days: [
       {
           date: '8',
           day: 'Black Bart Day',
-          'Description': 'Festival: 209-754-0127. Black Bart, born as Charles E. Boles, robbed stagecoaches in northern California during the 1870s and 1880s. He often left behind one of his poems, signed Black Bart the Po8. Read some doggeral today!'
+          description: 'Festival: 209-754-0127. Black Bart, born as Charles E. Boles, robbed stagecoaches in northern California during the 1870s and 1880s. He often left behind one of his poems, signed Black Bart the Po8. Read some doggeral today!'
       },
       {
           date: '9',
@@ -23310,7 +23301,7 @@ days: [
       {
           date: '9',
           day: 'Black Tennis Players Day',
-          'Description': 'On September 9, 1968, Arthur Ashe became the first black to win the U.S. men\'s singles tennis championship. Also in 2001, Venus and Serena Williams became the first two African-Americans to meet in a Grand Slam tennis finale.'
+          description: 'On September 9, 1968, Arthur Ashe became the first black to win the U.S. men\'s singles tennis championship. Also in 2001, Venus and Serena Williams became the first two African-Americans to meet in a Grand Slam tennis finale.'
       },
       {
           date: '10',
@@ -23795,7 +23786,7 @@ days: [
       {
           date: '15',
           day: 'Black Convention Day',
-          'Description': '800-321-9563. The first national convention for blacks was held at Bethel Church in Philadelphia, Pennsylvania, in 1830.'
+          description: '800-321-9563. The first national convention for blacks was held at Bethel Church in Philadelphia, Pennsylvania, in 1830.'
       },
       {
           date: '16',
@@ -23996,12 +23987,12 @@ days: [
       {
           date: '17',
           day: 'Black Female Golf Champion Day',
-          'Description': '800-336-4446. In 1956, Ann Gregory became the first black female golfer to play in a U.S. Golf Association national championship event when she played in the Women\'s Amateur at Indianapolis, Indiana.'
+          description: '800-336-4446. In 1956, Ann Gregory became the first black female golfer to play in a U.S. Golf Association national championship event when she played in the Women\'s Amateur at Indianapolis, Indiana.'
       },
       {
           date: '17',
           day: 'Black Miss America Day',
-          'Description': '888-222-3683. In 1983, Vanessa Williams became the first black to win the Miss America contest. She was also the first Miss America to resign (as a result of nude photographs of her that appeared in \'Penthouse\' magazine).'
+          description: '888-222-3683. In 1983, Vanessa Williams became the first black to win the Miss America contest. She was also the first Miss America to resign (as a result of nude photographs of her that appeared in \'Penthouse\' magazine).'
       },
       {
           date: '18',
@@ -24070,7 +24061,7 @@ days: [
       {
           date: '18',
           day: 'Black People in Space Day',
-          'Description': 'On September 18, 1980, Cuban Arnoldo Tamayo was launched into space aboard Soviet spacecraft Soyuz 38.'
+          description: 'On September 18, 1980, Cuban Arnoldo Tamayo was launched into space aboard Soviet spacecraft Soyuz 38.'
       },
       {
           date: '19',
@@ -24202,7 +24193,7 @@ days: [
       },
       {
           date: '20',
-          day: 'Rock '/n Roll Waxworks Day'
+          day: 'Rock n Roll Waxworks Day'
       },
       {
           date: '20',
@@ -24219,7 +24210,7 @@ days: [
       {
           date: '20',
           day: 'Black Lion Heartbreak Day',
-          'Description': 'In the movie \'Amélie\' Madeleine Wells\'s husband was killed in a car crash in South America. His dog, Black Lion, died of heartbreak on that day.'
+          description: 'In the movie \'Amélie\' Madeleine Wells\'s husband was killed in a car crash in South America. His dog, Black Lion, died of heartbreak on that day.'
       },
       {
           date: '21',
@@ -24264,10 +24255,6 @@ days: [
       {
           date: '21',
           day: 'National Rich Villain Day'
-      },
-      {
-          date: '21',
-          day: 'Netherlands Princes' Day'
       },
       {
           date: '21',
@@ -24392,7 +24379,7 @@ days: [
       {
           date: '22',
           day: 'Black Nobel Peace Prize Day',
-          'Description': 'In 1950, Dr. Ralph Bunche became the first black to receive the Nobel Prize for peace. 14 years later, Martin Luther King Jr. received the same prize (on October 14, 1964). King was the youngest recipient of the Nobel Peace Prize.'
+          description: 'In 1950, Dr. Ralph Bunche became the first black to receive the Nobel Prize for peace. 14 years later, Martin Luther King Jr. received the same prize (on October 14, 1964). King was the youngest recipient of the Nobel Peace Prize.'
       },
       {
           date: '23',
@@ -24581,7 +24568,7 @@ days: [
       {
           date: '24',
           day: 'Black College Day',
-          'Description': 'The last Monday in September celebrates the founding of Howard University on September 25, 1867. It spotlights America\'s traditionally black colleges and their role in helping African Americans advance in education.'
+          description: 'The last Monday in September celebrates the founding of Howard University on September 25, 1867. It spotlights America\'s traditionally black colleges and their role in helping African Americans advance in education.'
       },
       {
           date: '25',
@@ -24666,7 +24653,7 @@ days: [
       {
           date: '25',
           day: 'Black Sunday',
-          'Description': 'In 1966, movie theater owners named this date Black Sunday as few people came to theaters. Instead, most people stayed home to see \'The Bridge on the River Kwai\' movie on ABC-TV. The movie received a 38.3 rating and scared the willies out of movie theater'
+          description: 'In 1966, movie theater owners named this date Black Sunday as few people came to theaters. Instead, most people stayed home to see \'The Bridge on the River Kwai\' movie on ABC-TV. The movie received a 38.3 rating and scared the willies out of movie theater'
       },
       {
           date: '26',
@@ -25077,6 +25064,7 @@ days: [
           day: 'York U.S. Capital Day'
       }
   ],
+},
   October:  {
       image: 'October.png',
 days: [
@@ -26362,7 +26350,7 @@ days: [
       {
           date: '15',
           day: 'Black Coaches Day',
-          'Description': 'In 1966, Bill Russell became the first African-American head coach of a major professional sports team, in this case, the Boston Celtics of the National Basketball Association. As a player coach, he led his team to the NBA title in 1968 and 1969.'
+          description: 'In 1966, Bill Russell became the first African-American head coach of a major professional sports team, in this case, the Boston Celtics of the National Basketball Association. As a player coach, he led his team to the NBA title in 1968 and 1969.'
       },
       {
           date: '16',
@@ -26523,7 +26511,7 @@ days: [
       {
           date: '17',
           day: 'Black Poetry Day',
-          'Description': 'This day celebrates the birthday of Jupiter Hammon (1711), the first American black to publish his poetry. It also recognizes the contributions of black poets to American life and culture.'
+          description: 'This day celebrates the birthday of Jupiter Hammon (1711), the first American black to publish his poetry. It also recognizes the contributions of black poets to American life and culture.'
       },
       {
           date: '18',
@@ -26640,7 +26628,7 @@ days: [
       {
           date: '18',
           day: 'Black Power Day',
-          'Description': '800-841-1994. In the 1968 Mexico City Olympics, sprinters Tommie Smith and John Carlos were suspended for giving a black power salute during the victory ceremony. At the same Olympics, Bob Beamon set a long jump world record of 29 feet, 2 1/2 inches (whic'
+          description: '800-841-1994. In the 1968 Mexico City Olympics, sprinters Tommie Smith and John Carlos were suspended for giving a black power salute during the victory ceremony. At the same Olympics, Bob Beamon set a long jump world record of 29 feet, 2 1/2 inches (whic'
       },
       {
           date: '19',
@@ -26737,15 +26725,11 @@ days: [
       {
           date: '19',
           day: 'Black Monday',
-          'Description': '800-831-1234. In 1987, the Dow Jones Industrial Average dropped 508 points, a 22% drop, the worst ever up to that time.'
+          description: '800-831-1234. In 1987, the Dow Jones Industrial Average dropped 508 points, a 22% drop, the worst ever up to that time.'
       },
       {
           date: '20',
           day: 'Guatemala Revolution Day'
-      },
-      {
-          date: '20',
-          day: 'Koran Day (Nuzulul Qur'an)'
       },
       {
           date: '20',
@@ -27178,7 +27162,7 @@ days: [
       {
           date: '24',
           day: 'Black Thursday',
-          'Description': 'On October 24, 1929, a major stock market panic occurred. Five days later, the stock market collapsed completely, thus starting the Great Depression.'
+          description: 'On October 24, 1929, a major stock market panic occurred. Five days later, the stock market collapsed completely, thus starting the Great Depression.'
       },
       {
           date: '25',
@@ -27641,6 +27625,7 @@ days: [
           day: 'Youth Honor Day'
       }
   ],
+},
   November:  {
       image: 'November.png',
 days: [
@@ -27762,7 +27747,7 @@ days: [
       {
           date: '1',
           day: 'Black Solidarity Day',
-          'Description': 'This national celebration, held on the first Monday in November, encourages black students to share their common heritage.'
+          description: 'This national celebration, held on the first Monday in November, encourages black students to share their common heritage.'
       },
       {
           date: '2',
@@ -28279,7 +28264,7 @@ days: [
       {
           date: '8',
           day: 'Black Elected Senator Day',
-          'Description': 'Edward Brooke of Massachusetts was elected in 1966 to the U.S. Senate.'
+          description: 'Edward Brooke of Massachusetts was elected in 1966 to the U.S. Senate.'
       },
       {
           date: '9',
@@ -28824,7 +28809,7 @@ days: [
       {
           date: '15',
           day: 'Black Hockey Player Day',
-          'Description': 'In 1950, Arthur Dorrington played hockey for the Atlantic City Seagulls, thus becoming the first African-American to play professional hockey.'
+          description: 'In 1950, Arthur Dorrington played hockey for the Atlantic City Seagulls, thus becoming the first African-American to play professional hockey.'
       },
       {
           date: '16',
@@ -29509,7 +29494,7 @@ days: [
       {
           date: '24',
           day: 'Black Friday',
-          'Description': 'The opening of the Christmas shopping season, the day after Thanksgiving is the busiest retail day of the year. Christmas Eve is next busiest. This day is known as Black Friday because this is the day that retailers go from being in the red to being in th'
+          description: 'The opening of the Christmas shopping season, the day after Thanksgiving is the busiest retail day of the year. Christmas Eve is next busiest. This day is known as Black Friday because this is the day that retailers go from being in the red to being in th'
       },
       {
           date: '25',
@@ -29944,6 +29929,7 @@ days: [
           day: 'Yemen Independence Day'
       }
   ],
+},
   December:  {
       image: 'December.png',
 days: [
@@ -30212,7 +30198,7 @@ days: [
       },
       {
           date: '3',
-          day: 'Georgia O'Keeffe Painting Day'
+          day: 'Georgia O\'Keeffe Painting Day'
       },
       {
           date: '3',
@@ -30581,7 +30567,7 @@ days: [
       {
           date: '7',
           day: 'Bizarre Behavior at the Post Office Day',
-          'Description': 'In 1995, Denver postal clerk John Pitney showed up for work wearing a dress and exhibiting other \'bizarre behavior.\' Ordered to leave the building, he tried two more times to come back, dressed in a gorilla mask and a strapped-on sexual device.'
+          description: 'In 1995, Denver postal clerk John Pitney showed up for work wearing a dress and exhibiting other \'bizarre behavior.\' Ordered to leave the building, he tried two more times to come back, dressed in a gorilla mask and a strapped-on sexual device.'
       },
       {
           date: '8',
@@ -31202,10 +31188,6 @@ days: [
       {
           date: '15',
           day: 'Rendezvous in Space Day'
-      },
-      {
-          date: '15',
-          day: 'Rock '/n Roll Marriage Day'
       },
       {
           date: '15',
@@ -32645,3 +32627,4 @@ days: [
       },
 ]
   }
+}
